@@ -11,7 +11,7 @@ $ poetry run pytest test/unit
 
 ```yml
 - name: Python Pylin GitHub Action
-  uses: fylein/python-pytest-github-action@v1
+  uses: wilig/python-poetry-pytest-github-action@v1
   with:
     args: poetry install && poetry run pytest
 ```
