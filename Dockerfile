@@ -1,4 +1,4 @@
-FROM python:3.8.2-slim
+FROM python:3.8.2-buster
 
 LABEL "com.github.actions.name"="GitHub Action for Python Pytest Poetry based Projects"
 LABEL "com.github.actions.description"="Run pytest commands on python slim image"
