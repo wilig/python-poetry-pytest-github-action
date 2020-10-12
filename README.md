@@ -4,7 +4,7 @@ Github Action for Pytest with Python Slim Docker image (supports install of nump
 Run any Pytest command using the action -
 
 ```bash
-$ Pytest test/unit
+$ poetry run pytest test/unit
 ```
 
 ### Usage
@@ -13,5 +13,5 @@ $ Pytest test/unit
 - name: Python Pylin GitHub Action
   uses: fylein/python-pytest-github-action@v1
   with:
-    args: pip3 install -r requirements.txt && pytest test/unit
+    args: poetry install && poetry run pytest
 ```
