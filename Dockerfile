@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="black"
 
 
 RUN pip install --upgrade poetry
-RUN pip install pytest==5.2.2 pytest-cov==2.8.1 pytest-mock==1.11.2 pytest-randomly==3.4.1
+RUN pip install pytest==5.4.3 pytest-cov==2.8.1 pytest-mock==3.3.1 pytest-randomly==3.4.1
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
